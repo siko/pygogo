@@ -8,7 +8,7 @@ def hello_world():
 
 @app.route('/siko')
 def siko():
-    return 'my name is chenbin!!!'
+    return 'my name is siko!!!'
 
 @app.route('/user/<username>')
 def show_user_profile(username):
